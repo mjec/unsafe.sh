@@ -24,7 +24,7 @@ term_unsafe() {
 alias grep='term_unsafe grep --color=never'
 alias cat='term_unsafe cat'
 alias sed='term_unsafe sed'
-alias sed='term_unsafe tee'
+alias tee='term_unsafe tee'
 
 # If curl is installed
 if command -v curl > /dev/null; then
